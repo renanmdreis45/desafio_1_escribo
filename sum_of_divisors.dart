@@ -4,8 +4,6 @@ sumDiv(int val) {
   String str = "";
   int sum = 0;
 
-  print(val % 1);
-
   if (val < 1) {
     str = "O valor recebido como parâmetro deve ser um inteiro positivo";
     return str;
