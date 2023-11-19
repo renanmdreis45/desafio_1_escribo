@@ -34,5 +34,6 @@ Repositório referente ao desafio 1 de algoritmo da Escribo.
 
 ```
   No terminal da ide utilizada, será exibido o comando para digitar um valor inteiro e positivo que será nossa entrada. Digite esse número no terminal e aperte na tecla enter, a saída retornada será o somatório desejado.
+  Digite também números inteiros negativos e valores que não são inteiros como 10.5 ou um texto qualquer, para testar as tratativas realizadas para esses casos.
 
 ```
