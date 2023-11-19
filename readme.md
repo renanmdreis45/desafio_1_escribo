@@ -12,6 +12,8 @@ Repositório referente ao desafio 1 de algoritmo da Escribo.
 
   Foi utilizado também um bloco try/catch para verificar se a entrada é um número inteiro, haverá a tentativa de converter essa entrada em um inteiro no bloco try, caso dê certo, o somatório é retornado corretamente, caso não dê certo, o bloco catch é executado e é informado para o usuário que a entrada digitada não é um número inteiro.
 
+  Além disso, um bloco if verifica na função se o valor digitado é positivo ou não. Caso não seja, o resto da função não é executado e é informado para o usuário que o inteiro digitado não é positivo
+
  # Como rodar a aplicação
   
   - É necessário instalar o [Dart](https://dart.dev/get-dart)
