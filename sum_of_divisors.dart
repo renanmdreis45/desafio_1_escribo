@@ -15,7 +15,10 @@ sumDiv(int val) {
     }
   }
 
-  return sum;
+  str =
+      "O somatório de todos os valores inteiros divisíveis por 3 ou 5 inferiores a esse número é: $sum"; 
+
+  return str;
 }
 
 void main() {
@@ -26,9 +29,6 @@ void main() {
 
   try {
     value = int.parse(stdin.readLineSync()!);
-
-    print(
-        "o somatório de todos os valores inteiros divisíveis por 3 ou 5 inferiores a esse número é:");
 
     print(sumDiv(value));
   } catch (err) {
